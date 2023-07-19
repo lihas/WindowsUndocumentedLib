@@ -1,6 +1,7 @@
 # UNDOCUMENTED Windows API
 
-Some information on the undocumented Windows API I have discovered.
+Some information on the undocumented Windows API I have discovered. These have all been discovered using Ghidra (static analysis),
+and WinDBG (dynamic analysis)
 
 ## DisplayConfigGetDeviceInfo
 1. **DisplayConfigGetDeviceInfo(-3)** or **DisplayConfigGetDeviceInfo(DISPLAYCONFIG_DEVICE_INFO_TYPE_UNDOC::DISPLAYCONFIG_DEVICE_INFO_GET_DPI_SCALE)**
